@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+/* font-family: 'Bai Jamjuree', sans-serif; */
+
+:root {
+    --size--Mobile: 375px;
+    --size-Desktop: 1440px;
+
+    --color-Strong-Cyan: hsl(171, 66%, 44%);
+    --color-Light-Blue: hsl(233, 100%, 69%);
+    --color-Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --color-Grayish-Blue: hsl(201, 11%, 66%);
+
+    --color-ios: #26bba5;
+    --color-borde-ios: #319985;
+    --color-mac: #6174ff;
+    --color-borde-mac: #5867c3;
+
+    --body-Font-size: 18px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 15px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background-image: url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    padding: 110px 35px 52px 35px;
+}
+
+/* ####################################################    HEADER */
+
+#header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 168px;
+}
+#header-image {
+    margin-bottom: 70px;
+}
+#header-titulo {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.article-text {
+    color: var(--color-Grayish-Blue);
+    text-align: center;
+}
+.section-text {
+    margin-bottom: 50px;
+}
+#buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.button {
+    width: 100%;
+    height: 55px;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    letter-spacing: 0.1em;
+    margin-bottom: 24px;
+}
+.button-ios {
+    background-color: var(--color-ios);
+    border-bottom: 3px solid var(--color-borde-ios);
+}
+.button-mac {
+    background-color: var(--color-mac);
+    border-bottom: 3px solid var(--color-borde-mac);
+}
+
+/* ####################################################    SECTION KEEP */
+
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 168px;
+}
+.section-title {
+    font-size: 1.6em;
+    text-align: center;
+    margin-bottom: 24px;
+}
+#keep-wgt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-image {
+    width: 100%;
+    margin-bottom: 62px;
+}
+.section-image img {
+    width: 100%;
+}
+.article-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.article {
+    margin-bottom: 26px;
+}
+.article-title {
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 24px;
+}
+
+/* ####################################################    SECTION ACCESS */
+/*                                          READY */
+/* ####################################################    SECTION SUPER */
+
+#super-text {
+    margin-bottom: 93px;
+}
+#super-art-container {
+    margin-bottom: 135px;
+}
+.article-image {
+    margin: 0px 42% 46px 42%;
+}
+#super-partners-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.partner {
+    margin-bottom: 66px;
+}
+
+/* ####################################################    SECTION CLIPBOARD */
+/*                                          READY */
+
+/* ####################################################    FOOTER */
+#footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer-logo {
+    margin-bottom: 48px;
+}
+#footer-logo img {
+    width: 55px;
+}
+#footer-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+#footer-menu a {
+    text-decoration: none;
+    color: var(--color-Grayish-Blue);
+    margin-bottom: 38px;
+}
+#footer-menu a:nth-child(5) {
+    margin-bottom: 0px;
+}
+#footer-redes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer-redes a {
+    margin: 0px 20px;
+    font-size: 1em; /*para modificar el tamaño de los iconos*/
+    color: var(--color-Dark-Grayish-Blue);
+}
+
+/* ####################################################    ATTRIBUTION */
+
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    color: black;
+}
+.attribution a {
+    color: var(--color-ios);
+    text-decoration: none;
+}
