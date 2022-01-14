@@ -21,9 +21,14 @@
 
     <header id="header">
       <div id="header-image"> <img src="images/logo.svg" alt="logo"></div>
-      <h1 id="header-titulo">A history of everything you copy</h1>
-      <p class="article-text section-text" id="header-text">Clipboard allows you to track and organize everything you
-        copy. Instantly access your clipboard on all your devices.</p>
+
+      <div class="article-head">
+        <h1 id="header-titulo">A history of everything you copy</h1>
+
+        <p class="article-text section-text" id="header-text">Clipboard allows you to track and organize everything you
+          copy. Instantly access your clipboard on all your devices.</p>
+      </div>
+
       <div id="buttons">
         <button class="button button-ios">Download for iOS</button>
         <button class="button button-mac">Download for Mac</button>
@@ -33,31 +38,36 @@
     <!-- ####################### KEEP -->
 
     <section class="section" id="keep">
-      <h2 class="section-title" id="keep-title">Keep track of your snippets</h2>
+      <div class="article-head">
+        <h2 class="section-title" id="keep-title">Keep track of your snippets</h2>
 
-      <p class="article-text section-text" id="keep-text">Clipboard instantly stores any item you copy in the cloud,
-        meaning you can
-        access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.
-      </p>
+        <p class="article-text section-text" id="keep-text">Clipboard instantly stores any item
+          you copy in the cloud,
+          meaning you can
+          access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.
+        </p>
+      </div>
 
       <div id="keep-wgt">
         <div class="section-image" id="keep-image"><img src="images/image-computer.png" alt="imagen computer"></div>
 
-        <div class="article-container">
+        <div class="article-container" id="keep-article-container">
           <article class="article" id="keep-quick">
             <h3 class="article-title">Quick Search</h3>
-            <p class="article-text">Easily search your snippets by content category, web address, application, and more.
+            <p class="article-text keep-article-text">Easily search your snippets by content category, web address,
+              application, and more.
             </p>
           </article>
 
           <article class="article" id="keep-icloud">
             <h3 class="article-title">iCloud Sync</h3>
-            <p class="article-text">Instantly saves and syncs snippets across all your devices.</p>
+            <p class="article-text keep-article-text">Instantly saves and syncs snippets across all your devices.</p>
           </article>
 
           <article class="article" id="keep-complete">
             <h3 class="article-title">Complete History</h3>
-            <p class="article-text">Retrieve any snippets from the first moment you started using the app.</p>
+            <p class="article-text keep-article-text">Retrieve any snippets from the first moment you started using the
+              app.</p>
           </article>
         </div>
       </div>
@@ -66,12 +76,15 @@
     <!-- ####################### ACCESS -->
 
     <section class="section" id="access">
-      <h2 class="section-title" id="access-title">Access Clipboard anywhere</h2>
 
-      <p class="article-text section-text" id="access-text">Whether you’re on the go, or at your computer, you can
-        access all your
-        Clipboard
-        snippets in a few simple clicks.</p>
+      <div class="article-head">
+        <h2 class="section-title" id="access-title">Access Clipboard anywhere</h2>
+
+        <p class="article-text section-text" id="access-text">Whether you’re on the go, or at your computer, you can
+          access all your
+          Clipboard
+          snippets in a few simple clicks.</p>
+      </div>
 
       <div class="section-image" id="access-image"><img src="images/image-devices.png" alt="imagen devices"></div>
 
@@ -81,12 +94,16 @@
 
     <section class="section" id="super">
 
-      <h2 class="section-title" id="super-title">Supercharge your workflow</h2>
+      <div class="article-head">
 
-      <p class="article-text" id="super-text">We’ve got the tools to boost your productivity.</p>
+        <h2 class="section-title" id="super-title">Supercharge your workflow</h2>
+
+        <p class="article-text" id="super-text">We’ve got the tools to boost your productivity.</p>
+      </div>
 
       <div class="article-container" id="super-art-container">
-        <article class="article" id="super-create">
+
+        <article class="article super-art" id="super-create">
           <div class="article-image"><img src="images/icon-blacklist.svg" alt="icon blacklist"></div>
 
           <h3 class="article-title">Create blacklists</h3>
@@ -95,7 +112,7 @@
             certain sources.</p>
         </article>
 
-        <article class="article" id="super-plain">
+        <article class="article super-art" id="super-plain">
           <div class="article-image"><img src="images/icon-text.svg" alt="icon text"></div>
 
           <h3 class="article-title">Plain text snippets</h3>
@@ -103,7 +120,7 @@
           <p class="article-text">Remove unwanted formatting from copied text for a consistent look.</p>
         </article>
 
-        <article class="article" id="super-sneak">
+        <article class="article super-art" id="super-sneak">
           <div class="article-image"><img src="images/icon-preview.svg" alt="icon preview"></div>
 
           <h3 class="article-title">Sneak preview</h3>
@@ -112,7 +129,7 @@
         </article>
       </div>
 
-      <div class="article-container" id="super-partners-container">
+      <div id="super-partners-container">
         <div class="partner"><img src="images/logo-google.png" alt="logo google"></div>
         <div class="partner"><img src="images/logo-ibm.png" alt="logo imb"></div>
         <div class="partner"><img src="images/logo-microsoft.png" alt="logo microsoft"></div>
@@ -126,12 +143,16 @@
 
     <section class="section" id="clipboard">
 
-      <h2 class="section-title" id="clipboard-title">Clipboard for iOS and Mac OS</h2>
+      <div class="article-head">
 
-      <p class="article-text section-text" id="clipboard-text">Available for free on the App Store. Download for Mac or
-        iOS, sync
-        with iCloud
-        and you’re ready to start adding to your clipboard.</p>
+        <h2 class="section-title" id="clipboard-title">Clipboard for iOS and Mac OS</h2>
+
+        <p class="article-text section-text" id="clipboard-text">Available for free on the App Store. Download for Mac
+          or
+          iOS, sync
+          with iCloud
+          and you’re ready to start adding to your clipboard.</p>
+      </div>
 
       <div id="buttons">
         <button class="button button-ios">Download for iOS</button>
@@ -142,7 +163,9 @@
     <!-- ####################### FOOTER -->
 
     <footer id="footer">
+
       <div id="footer-logo"><img src="images/logo.svg" alt="logo"></div>
+
       <div id="footer-menu">
         <a href="https://github.com/AndresRicardo/">FAQs</a>
         <a href="https://github.com/AndresRicardo/">Contact Us</a>
@@ -152,9 +175,9 @@
       </div>
 
       <div id="footer-redes">
-        <a href="https://facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
-        <a href="https://twiter.com/"><i class="fab fa-twitter fa-2x"></i> </a>
-        <a href="https://instagram.com/"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="https://facebook.com"><i class="fab fa-facebook fa-lg"></i></a>
+        <a href="https://twiter.com/"><i class="fab fa-twitter fa-lg"></i> </a>
+        <a href="https://instagram.com/"><i class="fab fa-instagram fa-lg"></i></a>
       </div>
     </footer>
   </div>
